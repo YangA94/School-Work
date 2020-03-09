@@ -1,0 +1,24 @@
+//This program is to display a diamond shaped figure.
+#include <iostream>
+
+int main()
+
+{
+	//Top diamond
+	cout << "\t	\t	\t	*\n";
+
+	//2nd row of diamond
+	cout << "\t	\t	*	\t	\t	*\n";
+
+	//Middle row of diamond
+	cout << "\t*	\t	\t	\t	\t	\t	*\n";
+
+	//4th row of diamond
+	cout << "\t	\t	*	\t	\t	*\n";
+
+	//Last row of diamond
+	cout << "\t	\t	\t	*\n";
+
+	return 0;
+
+}
